@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5538C992892E2F0003E7990 /* BodyTrackingARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5538C982892E2F0003E7990 /* BodyTrackingARApp.swift */; };
+		A5538C9B2892E2F0003E7990 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5538C9A2892E2F0003E7990 /* ContentView.swift */; };
+		A5538C9D2892E2F5003E7990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5538C9C2892E2F5003E7990 /* Assets.xcassets */; };
+		A5538CA02892E2F5003E7990 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5538C9F2892E2F5003E7990 /* Preview Assets.xcassets */; };
+		A5538CA72892E315003E7990 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5538CA62892E315003E7990 /* ARViewContainer.swift */; };
+		A5538CA92892E3C0003E7990 /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5538CA82892E3C0003E7990 /* SkeletonJoint.swift */; };
+		A5538CAB2892E3E8003E7990 /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5538CAA2892E3E8003E7990 /* SkeletonBone.swift */; };
+		A5538CAD2892E8BD003E7990 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5538CAC2892E8BD003E7990 /* Bones.swift */; };
+		A5538CAF2892ECEE003E7990 /* BodySkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5538CAE2892ECEE003E7990 /* BodySkeleton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5538C952892E2F0003E7990 /* BodyTrackingAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyTrackingAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5538C982892E2F0003E7990 /* BodyTrackingARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTrackingARApp.swift; sourceTree = "<group>"; };
+		A5538C9A2892E2F0003E7990 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5538C9C2892E2F5003E7990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5538C9F2892E2F5003E7990 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5538CA62892E315003E7990 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		A5538CA82892E3C0003E7990 /* SkeletonJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
+		A5538CAA2892E3E8003E7990 /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
+		A5538CAC2892E8BD003E7990 /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
+		A5538CAE2892ECEE003E7990 /* BodySkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySkeleton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5538C922892E2F0003E7990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5538C8C2892E2F0003E7990 = {
+			isa = PBXGroup;
+			children = (
+				A5538C972892E2F0003E7990 /* BodyTrackingAR */,
+				A5538C962892E2F0003E7990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5538C962892E2F0003E7990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5538C952892E2F0003E7990 /* BodyTrackingAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5538C972892E2F0003E7990 /* BodyTrackingAR */ = {
+			isa = PBXGroup;
+			children = (
+				A5538C982892E2F0003E7990 /* BodyTrackingARApp.swift */,
+				A5538C9A2892E2F0003E7990 /* ContentView.swift */,
+				A5538CA82892E3C0003E7990 /* SkeletonJoint.swift */,
+				A5538CAA2892E3E8003E7990 /* SkeletonBone.swift */,
+				A5538CAC2892E8BD003E7990 /* Bones.swift */,
+				A5538CAE2892ECEE003E7990 /* BodySkeleton.swift */,
+				A5538CA62892E315003E7990 /* ARViewContainer.swift */,
+				A5538C9C2892E2F5003E7990 /* Assets.xcassets */,
+				A5538C9E2892E2F5003E7990 /* Preview Content */,
+			);
+			path = BodyTrackingAR;
+			sourceTree = "<group>";
+		};
+		A5538C9E2892E2F5003E7990 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A5538C9F2892E2F5003E7990 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5538C942892E2F0003E7990 /* BodyTrackingAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5538CA32892E2F5003E7990 /* Build configuration list for PBXNativeTarget "BodyTrackingAR" */;
+			buildPhases = (
+				A53E90B728F8537A006EEEE0 /* SwiftLint */,
+				A5538C912892E2F0003E7990 /* Sources */,
+				A5538C922892E2F0003E7990 /* Frameworks */,
+				A5538C932892E2F0003E7990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BodyTrackingAR;
+			productName = BodyTrackingAR;
+			productReference = A5538C952892E2F0003E7990 /* BodyTrackingAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5538C8D2892E2F0003E7990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A5538C942892E2F0003E7990 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A5538C902892E2F0003E7990 /* Build configuration list for PBXProject "BodyTrackingAR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5538C8C2892E2F0003E7990;
+			productRefGroup = A5538C962892E2F0003E7990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5538C942892E2F0003E7990 /* BodyTrackingAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5538C932892E2F0003E7990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5538CA02892E2F5003E7990 /* Preview Assets.xcassets in Resources */,
+				A5538C9D2892E2F5003E7990 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A53E90B728F8537A006EEEE0 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5538C912892E2F0003E7990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5538CAF2892ECEE003E7990 /* BodySkeleton.swift in Sources */,
+				A5538C9B2892E2F0003E7990 /* ContentView.swift in Sources */,
+				A5538CAD2892E8BD003E7990 /* Bones.swift in Sources */,
+				A5538C992892E2F0003E7990 /* BodyTrackingARApp.swift in Sources */,
+				A5538CAB2892E3E8003E7990 /* SkeletonBone.swift in Sources */,
+				A5538CA72892E315003E7990 /* ARViewContainer.swift in Sources */,
+				A5538CA92892E3C0003E7990 /* SkeletonJoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5538CA12892E2F5003E7990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5538CA22892E2F5003E7990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5538CA42892E2F5003E7990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BodyTrackingAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Q3YXSXH96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera 🦔";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewushakov.BodyTrackingAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5538CA52892E2F5003E7990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BodyTrackingAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Q3YXSXH96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera 🦔";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrewushakov.BodyTrackingAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5538C902892E2F0003E7990 /* Build configuration list for PBXProject "BodyTrackingAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5538CA12892E2F5003E7990 /* Debug */,
+				A5538CA22892E2F5003E7990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5538CA32892E2F5003E7990 /* Build configuration list for PBXNativeTarget "BodyTrackingAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5538CA42892E2F5003E7990 /* Debug */,
+				A5538CA52892E2F5003E7990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5538C8D2892E2F0003E7990 /* Project object */;
+}
